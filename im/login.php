@@ -1,7 +1,7 @@
 <?php
 date_default_timezone_set('Europe/Kiev');
 function auth($data) {
-	require $_SERVER['DOCUMENT_ROOT'].'/system/db.php';
+	require $_SERVER['DOCUMENT_ROOT'].'/qr/system/db.php';
 
 	$data2 = $_POST;
 	if( isset($data2['do_login'])) {

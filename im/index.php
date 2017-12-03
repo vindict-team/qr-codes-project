@@ -6,7 +6,7 @@
 	<link rel="icon" type="image/png" href="./assets/img/favicon.png">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-	<title>Школа Риэлторского Мастерства - Авторизация</title>
+	<title>Система Автоматизации Посещений - Авторизация</title>
 
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 
@@ -31,10 +31,16 @@
 							<form class="form" method="POST" action="index.php">
 								<div class="header header-primary text-center">
 									<h4>Авторизация</h4>
+									<div class="social-line">
+										<a href="#pablo" class="btn btn-simple btn-just-icon" id="auth-google">
+											<i class="fa fa-google-plus"></i>&nbsp; <span style="font-size:14px;">Авторизоваться</span>
+										</a>
+									</div>
 								</div>
+								<p class="text-divider">Или по классике...</p>
 								<?php //manager123+
 								if (isset($_POST)) {
-									require $_SERVER['DOCUMENT_ROOT'].'/admin/login.php';
+									require 'login.php';
 									echo(auth($_POST));
 								}?>
 								<div class="content">
@@ -52,8 +58,13 @@
 										<input type="password" name="password" required placeholder="Пароль..." class="form-control" />
 									</div>
 								</div>
-								<div class="footer text-center">
-									<input type="submit" name="do_login" value="Войти" class="btn btn-simple btn-primary btn-lg">
+								<div class="footer">
+    								<div class="footer text-left" style="display: inline-block;float:left;">
+    									<a href="/qr" class="btn btn-simple btn-primary btn-lg">Назад</a>
+    								</div>
+    								<div class="footer text-right" style="display: inline-block;float:right;">
+    									<input type="submit" name="do_login" value="Войти" class="btn btn-simple btn-primary btn-lg">
+    								</div>
 								</div>
 							</form>
 						</div>

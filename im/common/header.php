@@ -55,7 +55,6 @@ date_default_timezone_set('Europe/Kiev');
                             <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
                             <!-- Dark Logo icon -->
                             <img src="../assets/img/arm-logo.png" alt="homepage" class="dark-logo" width="55px" height="55px"/>
-                            
                         </b>
                         <!--End Logo icon -->
                         <!-- Logo text -->
@@ -106,25 +105,13 @@ date_default_timezone_set('Europe/Kiev');
                             <a href="../main.php" class="waves-effect"><i class="fa fa-home m-r-10" aria-hidden="true"></i> Главная</a>
                         </li>
                         <li>
-                            <a href="customers.php" class="waves-effect"><i class="fa fa-users m-r-10" aria-hidden="true"></i> Участники</a>
+                            <a href="#" class="waves-effect"><i class="fa fa-users m-r-10" aria-hidden="true"></i> Пользователи</a>
                         </li>
                         <li>
-                            <a href="emails.php" class="waves-effect"><i class="fa fa-envelope-o m-r-10" aria-hidden="true"></i> Электронные адреса</a>
+                            <a href="#" class="waves-effect"><i class="fa fa-envelope-o m-r-10" aria-hidden="true"></i> Оповещения</a>
                         </li>
                         <li>
-                            <a href="blocks.php" class="waves-effect"><i class="fa fa-font m-r-10" aria-hidden="true"></i> Текстовые блоки</a>
-                        </li>
-						<li>
-                            <a href="speakers.php" class="waves-effect"><i class="fa fa-user m-r-10" aria-hidden="true"></i> Спикеры</a>
-                        </li>
-						<li>
-                            <a href="courses.php" class="waves-effect"><i class="fa fa-copy m-r-10" aria-hidden="true"></i> Курсы</a>
-                        </li>
-                        <li>
-                            <a href="gallery.php" class="waves-effect"><i class="fa fa-photo m-r-10" aria-hidden="true"></i> Редактирование фото</a>
-                        </li>
-                        <li>
-                            <a href="logs.php" class="waves-effect"><i class="fa fa-address-book-o m-r-10" aria-hidden="true"></i> Логи авторизации</a>
+                            <a href="#" class="waves-effect"><i class="fa fa-font m-r-10" aria-hidden="true"></i> Списки</a>
                         </li>
                     </ul>
                 </nav>
@@ -238,30 +225,18 @@ date_default_timezone_set('Europe/Kiev');
 			<!-- Sidebar navigation-->
 			<nav class="sidebar-nav">
 				<ul id="sidebarnav">
-					<li>
-						<a href="main.php" class="waves-effect"><i class="fa fa-home m-r-10" aria-hidden="true"></i> Главная</a>
-					</li>
-					<li>
-						<a href="pages/customers.php" class="waves-effect"><i class="fa fa-users m-r-10" aria-hidden="true"></i> Участники</a>
-					</li>
-					<li>
-						<a href="pages/emails.php" class="waves-effect"><i class="fa fa-envelope-o m-r-10" aria-hidden="true"></i> Электронные адреса</a>
-					</li>
-					<li>
-						<a href="pages/blocks.php" class="waves-effect"><i class="fa fa-font m-r-10" aria-hidden="true"></i> Текстовые блоки</a>
-					</li>
-					<li>
-						<a href="pages/speakers.php" class="waves-effect"><i class="fa fa-user m-r-10" aria-hidden="true"></i> Спикеры</a>
-					</li>
-					<li>
-						<a href="pages/courses.php" class="waves-effect"><i class="fa fa-copy m-r-10" aria-hidden="true"></i> Курсы</a>
-					</li>
-					<li>
-						<a href="pages/gallery.php" class="waves-effect"><i class="fa fa-photo m-r-10" aria-hidden="true"></i> Редактирование фото</a>
-					</li>
-					<li>
-						<a href="pages/logs.php" class="waves-effect"><i class="fa fa-address-book-o m-r-10" aria-hidden="true"></i> Логи авторизации</a>
-					</li>
+                        <li>
+                            <a href="../main.php" class="waves-effect"><i class="fa fa-home m-r-10" aria-hidden="true"></i> Главная</a>
+                        </li>
+                        <li>
+                            <a href="#" class="waves-effect"><i class="fa fa-users m-r-10" aria-hidden="true"></i> Пользователи</a>
+                        </li>
+                        <li>
+                            <a href="#" class="waves-effect"><i class="fa fa-envelope-o m-r-10" aria-hidden="true"></i> Оповещения</a>
+                        </li>
+                        <li>
+                            <a href="#" class="waves-effect"><i class="fa fa-font m-r-10" aria-hidden="true"></i> Списки</a>
+                        </li>
 				</ul>
 			</nav>
 			<!-- End Sidebar navigation -->
